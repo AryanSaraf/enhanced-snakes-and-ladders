@@ -7,6 +7,9 @@
   - Add it to your `pom.xml` file if you're using Maven.
   - Add it to your `build.gradle` file if you're using Gradle.
   - Add it to "External dependencies" or a similar category on your IDE of choice.
+- This project also requires MySQL tables in a database labelled `javacon`.
+  - The tables must be exactly as specified in the individual `.csv` files in `doc/`.
+  - If any specifications are changed, the equivalent changes have to be made in `Question.java`.
 ## How to play
 - Clone this repository.
 ```bash
