@@ -8,6 +8,9 @@
   - Add it to your `build.gradle` file if you're using Gradle.
 ## How to play
 - Clone this repository.
+```bash
+$ git clone https://github.com/AryanSaraf/enhanced-snakes-and-ladders.git
+```
 - Compile and run the `Start.java` file in `src/`.
 ```bash
 $ export CLASSPATH=.:/path/to/mysql-connector-j-8.4.0.jar
@@ -21,4 +24,6 @@ $ cd src/
 $ javac Start.java
 $ java Start -cp .:/path/to/mysql-connector-j-8.4.0.jar
 ```
-On Windows, replace `export` with `set` and `:` with `;`.
+### Note
+- Replace `/path/to/mysql-connector-j-8.4.0.jar` with the actual path to the MySQL Connector/J.
+- On Windows, replace `export` with `set` and `:` with `;`.
