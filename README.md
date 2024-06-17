@@ -17,3 +17,4 @@ cd src/
 javac Start.java
 java Start -cp .:/path/to/mysql-connector-j-8.4.0.jar
 ```
+On Windows, replace the `:` with `;`.
