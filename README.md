@@ -6,15 +6,15 @@
 - Clone this repository.
 - Compile and run the `Start.java` file in `src/`.
 ```bash
-export CLASSPATH=.:/path/to/mysql-connector-j-8.4.0.jar
-cd src/
-javac Start.java
-java Start
+$ export CLASSPATH=.:/path/to/mysql-connector-j-8.4.0.jar
+$ cd src/
+$ javac Start.java
+$ java Start
 ```
 or
 ```bash
-cd src/
-javac Start.java
-java Start -cp .:/path/to/mysql-connector-j-8.4.0.jar
+$ cd src/
+$ javac Start.java
+$ java Start -cp .:/path/to/mysql-connector-j-8.4.0.jar
 ```
 On Windows, replace `export` with `set` and `:` with `;`.
