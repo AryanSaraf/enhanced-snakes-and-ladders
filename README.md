@@ -6,6 +6,7 @@
   - Add it to the Java `CLASSPATH` or specify it in the `-classpath` or `-cp` option (as shown).
   - Add it to your `pom.xml` file if you're using Maven.
   - Add it to your `build.gradle` file if you're using Gradle.
+  - Add it to `External dependencies` or a similar category on your IDE of choice.
 ## How to play
 - Clone this repository.
 ```bash
@@ -26,4 +27,6 @@ $ java Start -cp .:/path/to/mysql-connector-j-8.4.0.jar
 ```
 ### Note
 - Replace `/path/to/mysql-connector-j-8.4.0.jar` with the actual path to the MySQL Connector/J.
-- On Windows, replace `export` with `set` and `:` with `;`.
+- On Windows, replace:
+  - `export` with `set`.
+  - `:` with `;`.
